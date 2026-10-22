@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
-const Course = require('../models/Course');
-const Student = require('../models/Student');
+const Course = require('../models/Coursemodel');
+const Student = require('../models/Studentmodel');
 
 // Helper for sending errors to central middleware
 const createError = (message, statusCode) => {
